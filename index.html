@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Salary & Paycheck Calculator</title>
+    <style>
+        :root {
+            --bg-color: #0f1117;
+            --card-bg: #1a1d26;
+            --text-primary: #f5f5f0;
+            --text-secondary: #a6adbb;
+            --accent-lime: #d9f66f;
+            --accent-lavender: #c9b6ff;
+            --accent-orange: #ffb56b;
+            --border-color: #2a2e3d;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 32px 24px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            color: var(--accent-lime);
+            font-size: 28px;
+            margin-top: 0;
+            margin-bottom: 8px;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            color: var(--accent-lavender);
+            font-size: 14px;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        h2 {
+            color: var(--accent-lime);
+            font-size: 20px;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        p, li {
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--text-primary);
+        }
+
+        .highlight-box {
+            background-color: rgba(217, 246, 111, 0.08);
+            border-left: 4px solid var(--accent-lime);
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            color: var(--text-primary);
+        }
+
+        .contact-card {
+            background-color: rgba(201, 182, 255, 0.08);
+            border: 1px solid var(--accent-lavender);
+            padding: 16px;
+            border-radius: 12px;
+            margin-top: 24px;
+        }
+
+        .footer {
+            margin-top: 32px;
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border-color);
+            padding-top: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <div class="subtitle">Salary & Paycheck Calculator (SalaryWise) • Effective Date: October 26, 2026</div>
+
+    <div class="highlight-box">
+        <p><strong>🔒 100% Offline Privacy Guarantee:</strong> Your salary, CTC breakdown, tax deductions, and financial calculations are processed exclusively on your device. We do not collect, upload, or transmit your private financial data to any remote server.</p>
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>Welcome to <strong>Salary & Paycheck Calculator</strong> ("we," "our," or "us"). We respect your privacy and are committed to protecting it. This Privacy Policy explains how our Android application handles information when you use our offline salary, tax, and paycheck calculation tools.</p>
+
+    <h2>2. Data Collection and Usage</h2>
+    <p>Our app operates on a <strong>privacy-first, offline-first architecture</strong>:</p>
+    <ul>
+        <li><strong>Financial Inputs & Calculations:</strong> All CTC figures, basic pay percentages, HRA rent inputs, tax regime selections, and custom deduction entries are processed purely locally on your device using Kotlin calculation logic.</li>
+        <li><strong>Local Database Storage:</strong> Saved salary profiles and job offer comparison slots are stored strictly in an encrypted/private local SQLite database (Android Room) on your device. This data never leaves your device.</li>
+        <li><strong>PDF Report Generation:</strong> Payslip PDF reports are generated locally in your app's internal cache folder and shared only when you explicitly invoke the system share action.</li>
+    </ul>
+
+    <h2>3. Third-Party Services & Advertising</h2>
+    <p>To keep the application free for all users, our app integrates <strong>Google AdMob</strong> for banner and optional rewarded video advertisements:</p>
+    <ul>
+        <li><strong>Google AdMob:</strong> AdMob may collect device identifiers (such as Android Advertising ID), coarse location, or IP address to serve advertisements in compliance with Google Play Advertising Policies and local regulations.</li>
+        <li><strong>User Consent & Controls:</strong> You can enable or disable personalized ads at any time via the <em>Preferences</em> section in the app's Tools tab.</li>
+    </ul>
+
+    <h2>4. Device Permissions</h2>
+    <p>The app requests minimal Android system permissions:</p>
+    <ul>
+        <li><code>INTERNET</code> & <code>ACCESS_NETWORK_STATE</code>: Used solely for retrieving AdMob ad units and verifying consent preferences.</li>
+    </ul>
+
+    <h2>5. Data Control & Reset</h2>
+    <p>You have full control over your locally saved data at all times. You can instantly clear all saved calculations, job offer slots, and app preferences by tapping <strong>Reset Defaults</strong> or <strong>Clear Saved Calculations</strong> in the Tools tab.</p>
+
+    <h2>6. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy periodically. Any updates will be reflected within the app's internal Privacy Policy viewer and this published page.</p>
+
+    <h2>7. Contact Us</h2>
+    <div class="contact-card">
+        <p>If you have any questions or feedback regarding this Privacy Policy, please contact us at:</p>
+        <p><strong>Email:</strong> businessbrand369@gmail.com<br>
+        <strong>Developer:</strong> SalaryWise / Orinexa Apps</p>
+    </div>
+
+    <div class="footer">
+        © 2026 SalaryWise • All rights reserved.
+    </div>
+</div>
+
+</body>
+</html>
