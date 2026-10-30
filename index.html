@@ -1,9 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Salary & Paycheck Calculator by ORINEXA. Learn how local salary calculations and third-party advertising services handle information.">
     <title>Privacy Policy - Salary & Paycheck Calculator</title>
+
     <style>
         :root {
             --bg-color: #0f1117;
@@ -16,45 +19,48 @@
             --border-color: #2a2e3d;
         }
 
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont,
+                "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-primary);
-            line-height: 1.6;
+            line-height: 1.7;
             margin: 0;
             padding: 24px 16px;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
             background-color: var(--card-bg);
             padding: 32px 24px;
             border-radius: 20px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
             border: 1px solid var(--border-color);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
         }
 
         h1 {
             color: var(--accent-lime);
             font-size: 28px;
-            margin-top: 0;
-            margin-bottom: 8px;
+            margin: 0 0 8px;
             font-weight: 800;
         }
 
         .subtitle {
             color: var(--accent-lavender);
-            font-size: 14px;
+            font-size: 13px;
             margin-bottom: 24px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.4px;
         }
 
         h2 {
             color: var(--accent-lime);
             font-size: 20px;
-            margin-top: 28px;
+            margin-top: 30px;
             margin-bottom: 12px;
             border-bottom: 1px solid var(--border-color);
             padding-bottom: 8px;
@@ -66,15 +72,24 @@
         }
 
         ul {
-            padding-left: 20px;
+            padding-left: 22px;
         }
 
         li {
-            margin-bottom: 8px;
+            margin-bottom: 9px;
         }
 
         strong {
             color: var(--text-primary);
+        }
+
+        a {
+            color: var(--accent-lime);
+            overflow-wrap: anywhere;
+        }
+
+        a:hover {
+            color: var(--accent-lavender);
         }
 
         .highlight-box {
@@ -106,58 +121,380 @@
             border-top: 1px solid var(--border-color);
             padding-top: 16px;
         }
+
+        code {
+            color: var(--accent-orange);
+            overflow-wrap: anywhere;
+        }
     </style>
 </head>
+
 <body>
 
 <div class="container">
+
     <h1>Privacy Policy</h1>
-    <div class="subtitle">Salary & Paycheck Calculator (SalaryWise) • Effective Date: October 26, 2026</div>
+
+    <div class="subtitle">
+        Salary & Paycheck Calculator • Developed by ORINEXA
+        <br>
+        Effective Date: October 30, 2026
+        <br>
+        Last Updated: October 30, 2026
+    </div>
 
     <div class="highlight-box">
-        <p><strong>🔒 100% Offline Privacy Guarantee:</strong> Your salary, CTC breakdown, tax deductions, and financial calculations are processed exclusively on your device. We do not collect, upload, or transmit your private financial data to any remote server.</p>
+        <p>
+            <strong>Our Approach to Privacy:</strong>
+            Your salary inputs and calculations are designed to be
+            processed locally on your device. However, the application
+            uses Google AdMob advertising services, which may collect
+            certain device, advertising, and usage information.
+            Please read this policy to understand the distinction.
+        </p>
     </div>
 
     <h2>1. Introduction</h2>
-    <p>Welcome to <strong>Salary & Paycheck Calculator</strong> ("we," "our," or "us"). We respect your privacy and are committed to protecting it. This Privacy Policy explains how our Android application handles information when you use our offline salary, tax, and paycheck calculation tools.</p>
 
-    <h2>2. Data Collection and Usage</h2>
-    <p>Our app operates on a <strong>privacy-first, offline-first architecture</strong>:</p>
+    <p>
+        Welcome to <strong>Salary & Paycheck Calculator</strong>,
+        developed and published by <strong>ORINEXA</strong>
+        ("we", "our", or "us").
+    </p>
+
+    <p>
+        We respect your privacy and aim to minimize the information
+        processed by our application. This Privacy Policy explains
+        how information is handled when you use our Android
+        application, including its salary calculations, salary
+        comparisons, reports, and advertising features.
+    </p>
+
+    <h2>2. Information You Enter</h2>
+
+    <p>
+        The application allows you to enter information such as:
+    </p>
+
     <ul>
-        <li><strong>Financial Inputs & Calculations:</strong> All CTC figures, basic pay percentages, HRA rent inputs, tax regime selections, and custom deduction entries are processed purely locally on your device using Kotlin calculation logic.</li>
-        <li><strong>Local Database Storage:</strong> Saved salary profiles and job offer comparison slots are stored strictly in an encrypted/private local SQLite database (Android Room) on your device. This data never leaves your device.</li>
-        <li><strong>PDF Report Generation:</strong> Payslip PDF reports are generated locally in your app's internal cache folder and shared only when you explicitly invoke the system share action.</li>
+        <li>Annual CTC and gross salary.</li>
+        <li>Basic salary, allowances, and bonuses.</li>
+        <li>House Rent Allowance (HRA) and rent-related inputs.</li>
+        <li>Employee and employer PF contributions.</li>
+        <li>Tax regime selections and eligible deductions.</li>
+        <li>Job offer and salary comparison information.</li>
+        <li>Other salary and deduction details.</li>
     </ul>
 
-    <h2>3. Third-Party Services & Advertising</h2>
-    <p>To keep the application free for all users, our app integrates <strong>Google AdMob</strong> for banner and optional rewarded video advertisements:</p>
+    <p>
+        These inputs are used by the application to calculate
+        estimated salary, deductions, and take-home pay.
+        The salary calculation functionality is designed to
+        operate locally on your device without requiring an
+        account or sending your salary inputs to our own server.
+    </p>
+
+    <h2>3. Local Storage and Processing</h2>
+
+    <p>
+        The application may store information locally on your
+        device to support its features.
+    </p>
+
     <ul>
-        <li><strong>Google AdMob:</strong> AdMob may collect device identifiers (such as Android Advertising ID), coarse location, or IP address to serve advertisements in compliance with Google Play Advertising Policies and local regulations.</li>
-        <li><strong>User Consent & Controls:</strong> You can enable or disable personalized ads at any time via the <em>Preferences</em> section in the app's Tools tab.</li>
+        <li>
+            <strong>Salary calculations:</strong>
+            Salary inputs and calculations are processed locally
+            using the application's calculation logic.
+        </li>
+
+        <li>
+            <strong>Saved information:</strong>
+            Saved salary profiles, preferences, and job offer
+            comparisons may be stored in the application's
+            private local storage.
+        </li>
+
+        <li>
+            <strong>PDF reports:</strong>
+            Reports are generated on your device. If you choose
+            to share a report, it is handled through the Android
+            sharing interface and the application you select.
+        </li>
     </ul>
 
-    <h2>4. Device Permissions</h2>
-    <p>The app requests minimal Android system permissions:</p>
+    <p>
+        We do not operate a user account system or our own
+        cloud service for storing your salary calculations.
+        Information stored locally may be deleted if you clear
+        the application's storage or uninstall the application.
+    </p>
+
+    <h2>4. Third-Party Services and Advertising</h2>
+
+    <p>
+        Salary & Paycheck Calculator uses
+        <strong>Google AdMob</strong> to display advertisements
+        and support the free availability of the application.
+    </p>
+
+    <p>
+        Google and its advertising services may automatically
+        collect or process certain information, depending on
+        your device, consent choices, advertising configuration,
+        and applicable settings.
+    </p>
+
+    <p>This information may include:</p>
+
     <ul>
-        <li><code>INTERNET</code> & <code>ACCESS_NETWORK_STATE</code>: Used solely for retrieving AdMob ad units and verifying consent preferences.</li>
+        <li>Android Advertising ID or other device identifiers.</li>
+        <li>IP address and approximate location derived from it.</li>
+        <li>Device information and technical identifiers.</li>
+        <li>App interactions and advertising interactions.</li>
+        <li>Ad impressions, clicks, and video engagement.</li>
+        <li>Diagnostics, performance, and fraud-prevention information.</li>
     </ul>
 
-    <h2>5. Data Control & Reset</h2>
-    <p>You have full control over your locally saved data at all times. You can instantly clear all saved calculations, job offer slots, and app preferences by tapping <strong>Reset Defaults</strong> or <strong>Clear Saved Calculations</strong> in the Tools tab.</p>
+    <p>
+        This information may be used by Google and its advertising
+        partners for advertising delivery, measurement, analytics,
+        fraud prevention, security, and other purposes described
+        in their privacy policies.
+    </p>
 
-    <h2>6. Changes to This Privacy Policy</h2>
-    <p>We may update our Privacy Policy periodically. Any updates will be reflected within the app's internal Privacy Policy viewer and this published page.</p>
+    <p>
+        We do not directly receive or store your salary calculation
+        inputs through our own advertising server. However, third-party
+        SDKs operate according to their own data practices.
+    </p>
 
-    <h2>7. Contact Us</h2>
+    <p>
+        Learn more about Google's privacy practices:
+        <a href="https://policies.google.com/privacy"
+           target="_blank" rel="noopener noreferrer">
+            Google Privacy Policy
+        </a>
+    </p>
+
+    <p>
+        Learn more about how Google uses information from apps:
+        <a href="https://policies.google.com/technologies/partner-sites"
+           target="_blank" rel="noopener noreferrer">
+            How Google uses information from sites or apps that use its services
+        </a>
+    </p>
+
+    <h2>5. Advertising Preferences and Consent</h2>
+
+    <p>
+        Where required by applicable law, Google consent tools
+        may be used to collect and manage your advertising
+        consent preferences.
+    </p>
+
+    <p>
+        You may also be able to manage advertising preferences
+        or reset your advertising identifier through your
+        Android device settings, depending on your device and
+        Android version.
+    </p>
+
+    <p>
+        Advertising personalization and data processing are
+        subject to Google's policies, your consent choices,
+        and applicable privacy requirements.
+    </p>
+
+    <h2>6. Data Sharing</h2>
+
+    <p>
+        We do not sell your personal salary information.
+        The application does not provide our own account-based
+        data-sharing or salary-upload service.
+    </p>
+
+    <p>
+        However, certain technical and advertising information
+        may be collected or shared by Google AdMob and its
+        associated service providers as described in Section 4.
+    </p>
+
+    <p>
+        When you explicitly share a PDF report using Android's
+        sharing feature, the report is provided to the
+        application or destination you select.
+    </p>
+
+    <h2>7. Permissions</h2>
+
+    <p>
+        The application may use the following Android permissions
+        to support its functionality:
+    </p>
+
+    <ul>
+        <li>
+            <strong>INTERNET:</strong>
+            Required for network-based services, including
+            retrieving advertisements.
+        </li>
+
+        <li>
+            <strong>ACCESS_NETWORK_STATE:</strong>
+            Used to check network connectivity where required.
+        </li>
+    </ul>
+
+    <p>
+        The actual permissions requested by your installed
+        application are determined by its Android manifest
+        and the integrated software development kits.
+    </p>
+
+    <h2>8. Data Retention and Deletion</h2>
+
+    <p>
+        Salary information saved by the application remains
+        in the application's local storage until it is deleted
+        or the application data is cleared.
+    </p>
+
+    <p>
+        Depending on the available features, you can remove
+        saved calculations through the application's reset
+        or clear-data options.
+    </p>
+
+    <p>
+        You can also clear the application's storage or
+        uninstall the application through Android settings
+        to remove locally stored application data.
+    </p>
+
+    <p>
+        Information independently collected by Google AdMob
+        is subject to Google's data retention and deletion
+        practices.
+    </p>
+
+    <h2>9. Children's Privacy</h2>
+
+    <p>
+        This application is intended for a general audience
+        and is not designed specifically for children.
+        We do not knowingly collect personal information
+        directly from children through our own account system.
+    </p>
+
+    <p>
+        Advertising services integrated into the application
+        are subject to their own policies and applicable
+        age-related requirements.
+    </p>
+
+    <h2>10. Data Security</h2>
+
+    <p>
+        We aim to minimize the amount of personal information
+        handled by our application. Salary calculations are
+        designed to be processed locally, and saved application
+        data is maintained within the application's local
+        storage environment.
+    </p>
+
+    <p>
+        No method of electronic storage or transmission is
+        completely secure. We cannot guarantee absolute
+        security of information processed by third-party
+        services or stored on your device.
+    </p>
+
+    <h2>11. Government Information Disclaimer</h2>
+
+    <p>
+        Salary & Paycheck Calculator is an independent
+        application developed by ORINEXA. It is not affiliated
+        with, endorsed by, sponsored by, or officially connected
+        to the Government of India or any government department.
+    </p>
+
+    <p>
+        Government-related tax and employment information
+        should be verified through the relevant official
+        government sources.
+    </p>
+
+    <ul>
+        <li>
+            <a href="https://www.incometax.gov.in/"
+               target="_blank" rel="noopener noreferrer">
+                Income Tax Department, Government of India
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.epfindia.gov.in/"
+               target="_blank" rel="noopener noreferrer">
+                Employees' Provident Fund Organisation (EPFO)
+            </a>
+        </li>
+
+        <li>
+            <a href="https://labour.gov.in/"
+               target="_blank" rel="noopener noreferrer">
+                Ministry of Labour & Employment
+            </a>
+        </li>
+    </ul>
+
+    <p>
+        The application does not provide official government
+        services, tax filing, or professional tax advice.
+        All calculations are estimates for informational
+        purposes only.
+    </p>
+
+    <h2>12. Changes to This Privacy Policy</h2>
+
+    <p>
+        We may update this Privacy Policy from time to time
+        to reflect changes in the application, third-party
+        services, legal requirements, or our data practices.
+    </p>
+
+    <p>
+        Any updates will be published on this page.
+        The revised effective date will be displayed
+        at the top of the policy.
+    </p>
+
+    <h2>13. Contact Us</h2>
+
     <div class="contact-card">
-        <p>If you have any questions or feedback regarding this Privacy Policy, please contact us at:</p>
-        <p><strong>Email:</strong> businessbrand369@gmail.com<br>
-        <strong>Developer:</strong> SalaryWise / Orinexa Apps</p>
+        <p>
+            If you have questions or concerns about this
+            Privacy Policy or the application's privacy
+            practices, please contact us:
+        </p>
+
+        <p>
+            <strong>Developer:</strong> ORINEXA<br>
+            <strong>Application:</strong>
+            Salary & Paycheck Calculator<br>
+            <strong>Email:</strong>
+            <a href="mailto:businessbrand369@gmail.com">
+                businessbrand369@gmail.com
+            </a>
+        </p>
     </div>
 
     <div class="footer">
-        © 2026 SalaryWise • All rights reserved.
+        © 2026 ORINEXA. All rights reserved.
+        <br>
+        Salary & Paycheck Calculator
     </div>
+
 </div>
 
 </body>
